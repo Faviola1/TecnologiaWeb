@@ -1,0 +1,19 @@
+/* Media Query for medium - screens */
+/*@media only screen and ( min-width: 40em) */
+@media screen and (max-width: 600px) {
+
+    p{
+        color:cyan;
+    }
+    h1{
+        color:#225651;
+    }
+    
+}
+@media screen and (max-width: 600em) {
+
+    p{
+        color:green;
+    }
+    
+}
