@@ -2,7 +2,7 @@
         var header = document.querySelector('header');
         var section = document.querySelector('section');
 		/*To obtain the JSON*/
-        var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+        var requestURL = 'https://faviola1.github.io/TecnologiaWeb/asignaciones/asignacion8/places.json';
         /*Create a request*/
 		var request = new XMLHttpRequest();
         request.open('GET', requestURL);
@@ -41,6 +41,10 @@
             myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
             myPara2.textContent = 'Age: ' + heroes[i].age;
             myPara3.textContent = 'Superpowers:';
+
+            document.getElementById ('Secretidentity').innerHTML =heroes[i].secretIdentity;
+            document.getElementById ('Age').innerHTML = 'Age: ' + heroes[i].age;
+            
         
             var superPowers = heroes[i].powers;
             for (var j = 0; j < superPowers.length; j++) {
