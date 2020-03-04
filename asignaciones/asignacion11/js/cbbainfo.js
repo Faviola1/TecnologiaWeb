@@ -4,7 +4,7 @@
 
 // **** WEATHER SUMARY ***
 let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=Metric&APPID=c2f1a30c08bf1465f982f10da498c31a'
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=3919968&units=Metric&APPID=c2f1a30c08bf1465f982f10da498c31a'
 
 weatherRequest.open('GET', apiURLstring, true);
 weatherRequest.send();
@@ -127,7 +127,7 @@ var h2 = document.querySelector('h2');
 var section = document.querySelector('article');
 
 /*To obtain the JSON*/
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'https://faviola1.github.io/TecnologiaWeb/asignaciones/asignacion1/towndata.json';
 
 /*Create a request*/
 var request = new XMLHttpRequest();
@@ -145,7 +145,7 @@ function show(jsonObj) {
     var town = jsonObj['towns'];
     
    for (var i = 0; i<town.length; i++) {
-      if(town[i].name=='Preston')
+      if(town[i].name=='Cochabamba')
       //||town[i].name=='Soda Springs'||town[i].name=='Fish Haven') 
         {
             var myArticle = document.createElement('article');
