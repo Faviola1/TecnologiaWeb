@@ -1,0 +1,13 @@
+{
+    "name": "Cochabamba",
+    "photo": "cbba.jpg",
+    "motto": "Ciudad Jardin",
+    "yearFounded": 1571,
+    "currentPopulation": 1916000,
+    "averageRainfall": 16.65,
+    "events" : [
+      "29 de Febrero: Corso de corsos",
+      "15 de Agosto: Fiesta de Urkupiña",
+      "14 de Septiembre: Aniversario de Cochabamba"
+    ]
+  }

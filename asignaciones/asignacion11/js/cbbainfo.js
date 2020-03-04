@@ -4,7 +4,7 @@
 
 // **** WEATHER SUMARY ***
 let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=c2f1a30c08bf1465f982f10da498c31a'
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=Metric&APPID=c2f1a30c08bf1465f982f10da498c31a'
 
 weatherRequest.open('GET', apiURLstring, true);
 weatherRequest.send();
@@ -113,11 +113,11 @@ document.getElementById("icon4").setAttribute("alt", desc04);
 document.getElementById("icon5").setAttribute("alt", desc05);
 
 
-document.getElementById("temp1").innerHTML = temp01.toFixed(1) + "&deg;F";
-document.getElementById("temp2").innerHTML = temp02.toFixed(1) + "&deg;F";
-document.getElementById("temp3").innerHTML = temp03.toFixed(1) + "&deg;F";
-document.getElementById("temp4").innerHTML = temp04.toFixed(1) + "&deg;F";
-document.getElementById("temp5").innerHTML = temp05.toFixed(1) + "&deg;F";
+document.getElementById("temp1").innerHTML = temp01.toFixed(1) + "&deg;C";
+document.getElementById("temp2").innerHTML = temp02.toFixed(1) + "&deg;C";
+document.getElementById("temp3").innerHTML = temp03.toFixed(1) + "&deg;C";
+document.getElementById("temp4").innerHTML = temp04.toFixed(1) + "&deg;C";
+document.getElementById("temp5").innerHTML = temp05.toFixed(1) + "&deg;C";
 }
 
 /**** TOWN INFO EVENTS */
